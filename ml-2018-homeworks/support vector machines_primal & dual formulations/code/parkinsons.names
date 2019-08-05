@@ -1,0 +1,53 @@
+Title: Parkinsons Disease Data Set
+
+Abstract: Oxford Parkinson's Disease Detection Dataset
+
+-----------------------------------------------------	
+
+Data Set Characteristics: Multivariate
+Number of Instances: 197
+Area: Life
+Attribute Characteristics: Real
+Number of Attributes: 23
+Date Donated: 2008-06-26
+Associated Tasks: Classification
+Missing Values? N/A
+
+-----------------------------------------------------	
+
+Source:
+
+The dataset was created by Max Little of the University of Oxford, in 
+collaboration with the National Centre for Voice and Speech, Denver, 
+Colorado, who recorded the speech signals. The original study published the 
+feature extraction methods for general voice disorders.
+
+-----------------------------------------------------
+
+
+Attribute Information:
+
+Matrix column entries (attributes):
+
+status - Health status of the subject (one) - Parkinson's, (zero) - healthy
+MDVP:Fo(Hz) - Average vocal fundamental frequency
+MDVP:Fhi(Hz) - Maximum vocal fundamental frequency
+MDVP:Flo(Hz) - Minimum vocal fundamental frequency
+MDVP:Jitter(%),MDVP:Jitter(Abs),MDVP:RAP,MDVP:PPQ,Jitter:DDP - Several 
+measures of variation in fundamental frequency
+MDVP:Shimmer,MDVP:Shimmer(dB),Shimmer:APQ3,Shimmer:APQ5,MDVP:APQ,Shimmer:DDA - Several measures of variation in amplitude
+NHR,HNR - Two measures of ratio of noise to tonal components in the voice
+RPDE,D2 - Two nonlinear dynamical complexity measures
+DFA - Signal fractal scaling exponent
+spread1,spread2,PPE - Three nonlinear measures of fundamental frequency variation 
+
+-----------------------------------------------------
+
+Citation Request:
+
+If you use this dataset, please cite the following paper: 
+'Exploiting Nonlinear Recurrence and Fractal Scaling Properties for Voice Disorder Detection', 
+Little MA, McSharry PE, Roberts SJ, Costello DAE, Moroz IM. 
+BioMedical Engineering OnLine 2007, 6:23 (26 June 2007)
+
+
